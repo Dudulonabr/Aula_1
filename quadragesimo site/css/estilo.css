@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    color:rgb(220, 20, 20);
+    background-color:rgb(71, 75, 78) 
+}
+header{
+    margin-top: 20px;
+    position: fixed;
+}
