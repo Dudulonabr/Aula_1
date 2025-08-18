@@ -91,6 +91,15 @@ span
     position: relative;
     width: 32vh;
 }
+.home-img img{
+    position: relative;
+    width: 64vh;
+    cursor: pointer;
+    transition: 0.3s ease;
 
+}
+.home-img img:hover{
+    transform: scale(1.7);
+}
 
 
