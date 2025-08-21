@@ -112,10 +112,59 @@ span
     font-size: 2rem;
     border: 0.2rem solid #3d5ca6;
 }
+.social-icons a:hover{
+    background-color: #3d5ca6;
+    color: #fff;
+}
 p{
     font-size: 2rem;
     margin-top: 1%;
     margin-bottom: 1rem;
     color: #fff;
 }
+.btn{
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #3d5ca6;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+    margin-top: 0.75rem;
 
+}
+.btn:hover{
+    background-color: #fff;
+    color: #3d5ca6;
+    transform: scale(1.1);
+}
+.typig-text{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #3d5ca6;
+}
+.typing-text span{
+    position: relative;
+}
+.typing-text span::before{
+    content: '';
+    color: #3d5ca6;
+    animation: words 20s infinite;
+}
+.typig-text span::after{
+    content: '';
+    background-color: transparent;
+    position: absolute;
+    width: calc(100% + 0.5rem);
+    height: 100%;
+    border-radius: 0.5rem solid #3d5ca6;
+    animation: cursor 0.8s infinite;
+
+}
+@keyframes cursor{
+    to{
+        border-left: 3px solid #3d5ca6;
+    }
+}
