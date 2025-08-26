@@ -154,3 +154,19 @@ p{
     0%, 100% { border-color: #3d5ca6; }
     50% { border-color: transparent; }
 } 
+@media (max-width: 768px){
+    nav{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid #3d5ca6;
+        border-bottom: 3px solid #3d5ca6;
+        padding: 1rem;
+        background-color: black;
+        border-top: 0.1rem solid #3d5ca6;
+        
+    }
+
+}
