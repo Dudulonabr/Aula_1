@@ -22,6 +22,7 @@ body{
 header{
     margin-top: 20px;
     top: 0;
+    position: fixed;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
@@ -91,8 +92,10 @@ span
     width: 64vh;
     cursor: pointer;
     transition: 0.3s ease;
+    margin-bottom: 10rem;
 
 }
+
 .home-img img:hover{
     transform: scale(1.1);
 }
@@ -335,3 +338,30 @@ section p {
     align-items: center;
     width: 40%;
 }
+#contato img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+    align-items: center;
+    width: 50%;
+}
+#contato p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#contato h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#contato span{
+    color: #3d5ca6;
+}
+#contato .btn{
+    display: block;
+    margin: 0 auto;
+}
+#contato .btn:hover{
+    transform: scale(1);
+}
+
